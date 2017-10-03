@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" >
+
+    <TableRow android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/weight"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:src="@drawable/w" />
+
+        <ImageButton
+            android:id="@+id/length"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:src="@drawable/lg" />
+
+        <ImageButton
+            android:id="@+id/temp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:src="@drawable/temp" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/area"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:src="@drawable/area" />
+
+        <ImageButton
+            android:id="@+id/volume"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:src="@drawable/vol" />
+
+        <ImageButton
+            android:id="@+id/speed"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:src="@drawable/sp" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/height"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:src="@drawable/h" />
+
+        <ImageButton
+            android:id="@+id/pressure"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:src="@drawable/pres" />
+
+        <ImageButton
+            android:id="@+id/energy"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:src="@drawable/ene" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/time"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:src="@drawable/time" />
+
+        <ImageButton
+            android:id="@+id/roman"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:src="@drawable/rom" />
+
+        <ImageButton
+            android:id="@+id/exit"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:src="@drawable/exit"/>
+    </TableRow>
+
+</TableLayout>

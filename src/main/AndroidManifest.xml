@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abdelkader.simpleconverter" >
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <supports-screens android:smallScreens="false"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="false" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/swapbutton"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.abdelkader.simpleconverter.Time"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity android:name="com.example.abdelkader.simpleconverter.Weight"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.example.abdelkader.simpleconverter.Length"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.example.abdelkader.simpleconverter.Temperature"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.example.abdelkader.simpleconverter.Roman"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.example.abdelkader.simpleconverter.Speed"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.example.abdelkader.simpleconverter.Area"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.example.abdelkader.simpleconverter.Heightfrommeters"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.example.abdelkader.simpleconverter.Heightfromfeet"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.example.abdelkader.simpleconverter.Volume"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.example.abdelkader.simpleconverter.Pressure"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.example.abdelkader.simpleconverter.Energy"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+</manifest>
